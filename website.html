@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MeetMe</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: #78B7D0; /* Light blue background for the body */
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding-top: 20px;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 0;
+            background-color: #16325B; /* Dark blue for the navbar */
+        }
+
+        .navbar .logo {
+            font-size: 24px;
+            color: #FFDC7F; /* Yellow for logo text */
+        }
+
+        .navbar nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        .navbar nav ul li {
+            margin-left: 20px;
+        }
+
+        .navbar nav ul li a {
+            text-decoration: none;
+            color: #FFDC7F; /* Yellow for navbar links */
+            font-weight: bold;
+        }
+
+        .profile {
+            display: flex;
+            background: white; /* Keep a white background for profile section for clarity */
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            margin-top: 20px;
+        }
+
+        .profile-image img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+
+        .profile-details {
+            max-width: 600px;
+        }
+
+        .profile-details h1 {
+            font-size: 32px;
+            margin: 10px 0;
+            color: #16325B; /* Dark blue for main heading */
+        }
+
+        .profile-details h2 {
+            color: #227B94; /* Medium blue for secondary heading */
+        }
+
+        .profile-details h3 {
+            color: #888; /* Gray for subtitle */
+            font-weight: normal;
+        }
+
+        .profile-details p {
+            font-size: 16px;
+            color: #666;
+        }
+
+        .contact-info {
+            list-style: none;
+            padding: 0;
+        }
+
+        .contact-info li {
+            margin: 5px 0;
+            color: #7FA1C3; /* Medium blue for contact info text */
+        }
+
+        .social-media a {
+            text-decoration: none;
+            color: #6482AD; /* Medium blue for social media links */
+            margin-right: 10px;
+        }
+
+        .social-media a:hover {
+            color: #E2DAD6; /* Yellow on hover for social media links */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="navbar">
+                <h1 class="logo">MEETME</h1>
+                <nav>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <section class="profile">
+            <div class="profile-image">
+                <img src="foto/foto.jpg" alt="Nara">
+            </div>
+            <div class="profile-details">
+                <h2>Hello Everybody, I am</h2>
+                <h1>Dhinara Putri Calista</h1>
+                <h3>Senior high school, and I 2nd grade.</h3>
+                <p>maaf puh sepuh saya masih pemula</p>
+                <ul class="contact-info">
+                    <li><strong>Birthday:</strong> 7th November, 2007</li>
+                    <li><strong>Phone:</strong> +62 30303030</li>
+                    <li><strong>Email:</strong> narakiyowok@rawr</li>
+                    <li><strong>Address:</strong> Telkomschool 32</li>
+                </ul>
+                <div class="social-media">
+                    <a href="#">LinkedIn</a>
+                    <a href="#">Twitter</a>
+                    <a href="#">Instagram</a>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
